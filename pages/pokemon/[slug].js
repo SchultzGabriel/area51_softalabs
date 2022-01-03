@@ -2,7 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Head from 'next/head'
-import Image from 'next/image'
 import Link from 'next/link';
 
 import styles from '../../styles/Home.module.css'
@@ -74,11 +73,11 @@ export async function getStaticPaths() {
           slug: 'squirtle',
         },
       },
-      // {
-      //   params: {
-      //     slug: 'pikachu',
-      //   },
-      // },
+      {
+        params: {
+          slug: 'pikachu',
+        },
+      },
     ],
     fallback: false,
   };

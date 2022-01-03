@@ -15,9 +15,9 @@ export default [
         "slug": "squirtle",
         "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png"
       },
-      // {
-      //   "title": "Pikachu",
-      //   "slug": "pikachu",
-      //   "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
-      // }
+      {
+        "title": "Pikachu",
+        "slug": "pikachu",
+        "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png"
+      }
 ]
